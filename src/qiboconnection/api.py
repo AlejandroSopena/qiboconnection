@@ -28,7 +28,7 @@ from typing import Any, List, cast
 
 from numpy import typing as npt
 from qibo.models.circuit import Circuit
-from qibo.states import CircuitResult
+from qibo.result import CircuitResult
 from requests import HTTPError
 from typeguard import typechecked
 
